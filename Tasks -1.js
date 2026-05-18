@@ -39,15 +39,6 @@ const checkProcess = (value1, va2lue2) => {
 }
 console.log(checkProcess(word1, word2));
 
-#6
-let word1 = 'what_up man';
-let word2 = 'what is your name?';
-
-const checkProcess = (value1, va2lue2) => {
-    return value1.at(0) == value.at(0);
-}
-console.log(checkProcess(word1, word2));
-
 Level 1.2 task JavaScript
 #1
 let number = 25545;

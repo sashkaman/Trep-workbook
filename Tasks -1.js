@@ -97,3 +97,15 @@ const checkProcess = (num1, num2) => {
     return s1[0] === s2[0];
 };
 
+Level 1.3 task JavaScript
+
+#1
+let string = 'asdf;lkja'
+
+const checkString = (str) => {
+    if (str.length > 0) {
+        return str.at(-2)
+    }
+}
+
+console.log(checkString(string));

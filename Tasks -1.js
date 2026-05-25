@@ -1,27 +1,19 @@
-Level 1.3 task JavaScript
+// #1
+let item = 100;
 
-#1
-let string = 'asdf;lkja'
-
-const checkString = (str) => {
-    if (str.length > 0) {
-        return str.at(-2)
+const sumNumber = (value) => {
+    let sum = 0;
+    for (let i = 0; i <= value; i++) {
+        sum += i;
     }
+    console.log(sum)
 }
 
-console.log(checkString(string));
+sumNumber(item)
 
-#2
+// #1 >
+const item = 100;
 
-let num1 = 51;
-let num2 = 25;
+const sumNumber = (value) => (value * (value + 1)) / 2;
 
-const checkNumber = (value1, value2) => {
-    if (value1 % value2 === 0) {
-        return 0
-    } else {
-        return 'countless '
-    }
-}
-
-console.log(checkNumber(num1, num2));
+console.log(sumNumber(item));

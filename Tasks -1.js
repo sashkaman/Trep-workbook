@@ -1,78 +1,74 @@
-// #1
-// let item = 100;
+#1
+let item = 100;
 
-// const sumNumber = (value) => {
-//     let sum = 0;
-//     for (let i = 0; i <= value; i++) {
-//         sum += i;
-//     }
-//     console.log(sum)
-// }
+const sumNumber = (value) => {
+    let sum = 0;
+    for (let i = 0; i <= value; i++) {
+        sum += i;
+    }
+    console.log(sum)
+}
 
-// sumNumber(item)
+sumNumber(item)
 
-// #1 >
-// const item = 100;
+#1 >
+const item = 100;
 
-// const sumNumber = (value) => (value * (value + 1)) / 2;
+const sumNumber = (value) => (value * (value + 1)) / 2;
 
-// console.log(sumNumber(item));
+console.log(sumNumber(item));
 
-// #2
+#2
 
-// let item = 100;
+let item = 100;
 
-// const sumNumber = (value) => {
-//     let sum = 0;
-//     for (let i = 0; i <= value; i++) {
-//         if (i % 2 === 0) {
-//             sum += i;
-//         }
-//     }
-//     console.log(sum)
-// }
+const sumNumber = (value) => {
+    let sum = 0;
+    for (let i = 0; i <= value; i++) {
+        if (i % 2 === 0) {
+            sum += i;
+        }
+    }
+    console.log(sum)
+}
 
-// sumNumber(item)
+sumNumber(item)
 
-// #3
+#3
 
-// let item = 100;
+let item = 100;
 
-// const getEventNumberSum = (value) => {
-//     let sumEvent = 0;
-//     for (let i = 0; i <= value; i++) {
-//         if (i % 2 !== 0) {
-//             sumEvent += i;
-//         }
-//     }
-//     return sumEvent
-// }
+const getEventNumberSum = (value) => {
+    let sumEvent = 0;
+    for (let i = 0; i <= value; i++) {
+        if (i % 2 !== 0) {
+            sumEvent += i;
+        }
+    }
+    return sumEvent
+}
 
-// console.log(getEventNumberSum(item))
+console.log(getEventNumberSum(item))
 
-// #4
+#4
 
-// let num1 = 234;
-// let num2 = 122;
+let num1 = 234;
+let num2 = 122;
 
-// const getRemainder = (value1, value2) => {
-//     return num1 % num2
-// }
+const getRemainder = (value1, value2) => {
+    return num1 % num2
+}
 
-// console.log(getRemainder(num1, num2))
+console.log(getRemainder(num1, num2))
 
-// #5
+#5
 
-// let string = "Whatsup-HowAreYou"
+let string = "Whatsup-HowAreYou"
 
-// const getItemsStringForEnd = (value) => {
-//     for (let i = string.length - 1; i >= 0; i--) {
-//         console.log(string[i])
-//     }
-// }
+const getItemsStringForEnd = (value) => {
+    for (let i = string.length - 1; i >= 0; i--) {
+        console.log(string[i])
+    }
+}
 
-// getItemsStringForEnd(string)
-
-
-
-
+getItemsStringForEnd(string)
